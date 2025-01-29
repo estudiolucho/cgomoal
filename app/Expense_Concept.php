@@ -13,6 +13,6 @@ class Expense_Concept extends Model
     */
     public function expenses(){
     	return $this->hasMany('App\Expense', 'concept_id','id'); //asi me funciono
-    	//return $this->hasMany('App\Expense');  //explicacion de videos
+    	//return $this->hasMany('App\Expense');  //explicacion de videos completa
     }
 }
